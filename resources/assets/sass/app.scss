@@ -1,1 +1,82 @@
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+$background: #D5D6D2;
+$blue: #2c3f52;
+$grey: #333;
+$white: #fff;
+
+
+
+$buttonGreyBackground: #353C3F;
+$buttonGreyBackgroundHover: #756867;
+$headBackground: #2c3f52;
+$buttonGreyText: #FF8D3F;
+$backgroundColour: #eb6767;
+$textGrey: #21B6A8;
+
+body{
+  background-color: $background;
+  color: $grey;
+  overflow-x: hidden;
+}
+
+.greyBG{
+  background-color: $blue;
+  color: $grey;
+}
+
+.orangeBG{
+  background-color: $grey;
+  color: $white;
+}
+
+.greyText{
+  color: $white;
+}
+.jumbotron{
+  background-color: transparent;
+}
+
+.navbar{
+  margin-bottom: 0px;
+}
+
+.textWhite{
+  color: $white;
+}
+
+.btn-grey {
+  padding: 14px 24px;
+  border: 0 none;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.btn-grey:focus, .btn-grey:active:focus, .btn-grey.active:focus {
+  outline: 0 none;
+}
+
+.btn-grey {
+  background: $buttonGreyBackground;
+  color: $buttonGreyText;
+}
+
+.btn-grey:hover, .btn-grey:focus, .btn-grey:active, .btn-grey.active, .open > .dropdown-toggle.btn-grey {
+  background: $buttonGreyBackgroundHover;
+  color: $white;
+}
+
+.btn-grey:active, .btn-grey.active {
+  background: $buttonGreyBackground;
+  box-shadow: none;
+}
+
+.container{
+  padding: 0px;
+}
+
+.jumbotron{
+  padding: 0px;
+  padding-top: 20px;
+}
